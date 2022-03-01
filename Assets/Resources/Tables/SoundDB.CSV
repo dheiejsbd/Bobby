@@ -1,0 +1,27 @@
+Name,Path,Type,Volume
+PlayerWalk,Player_Walk,Effect,0.08
+PlayerDash,PlayerDash,Effect,1
+PlayerAttack,Boby projectile sound,Effect,1
+PlayerHit1,Hit_sound1,Effect,1
+PlayerHit2,Hit_sound1,Effect,1
+PlayerHit3,Hit_sound1,Effect,1
+PlayerBreath,PlayerBreathSkill,Effect,0.8
+PlayerHeal,PlayerHeal,Effect,0.8
+TurtleAttack,TurtleAttack,Effect,1
+TurtleHit,TurtleHit,Effect,1
+GolemAttack,GolemRock,Effect,1
+GolemHit,Golem_Hit,Effect,1
+BossMobSpawn,BossMobSpawn,Effect,1
+BossRockThorw,BossRockThorow,Effect,1
+UI,UI_sound,Effect,1
+Lobby,Title,Bgm,0.3
+InGame,Stage,Bgm,0.3
+Intro,ErrorSound,Bgm,0
+BossStage,BossStage,Bgm,1
+Win,GameWin,Effect,1
+Lose,GameLose,Effect,1
+Outtro,ErrorSound,Bgm,0
+Thunder,Thunder,Effect,1
+NoneStemina,DryFire,Effect,1
+SlimeDash,SlimeDash,Effect,1
+SlimeHit,SlimeHit,Effect,0.07

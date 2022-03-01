@@ -1,0 +1,50 @@
+1. 에셋 업로드
+2. 에셋 기반으로 실작업
+2.1 로비 씬 작업
+ - 오브젝트 배치/ 구도!
+ - 씬파일 경로 : Assets/Scenes/Lobby2.Scene 파일
+ - 리소스 경로 : Assets\ThirdParty\PolygonNature
+ - 작업자 : 윤환이/겨레이
+ - 1차 목표 날짜 : 4월 23일
+ - 포탈 있어야됨!
+
+2.2 전투 씬 작업 
+ - 오브젝트 배치/ 구도!
+ - 씬파일 경로 : Assets/Scenes/Stage/State@1003.Scene 파일
+ - 리소스 경로 : Assets\ThirdParty\PolygonNature
+ - 작업자 : 이준서
+ - 1차 목표 날짜 : 4월 23일
+
+2.3 플레이어 캐릭터  
+ - 유니티 에셋스토어 ! Tiny Dragon 구매
+ - 프리팹 파일 경로 : Assets\GameResources\Characters/Player.prefab 파일 
+ - 작업자 : 준현/영운
+ - 리소스(에니메이션)에 맞는 캐릭터 스킬/ 행동 기획 정리
+ - 파티클 경로 : Assets\ThirdParty\PolygonParticleFX
+  => 행동에 맞는 적절한 이펙트 착기 
+ - 1차 목표 날짜 : 4월 23일
+
+ 2.4 보스 캐릭터
+ - 프리팹 파일 경로 : Assets\GameResources\Characters/Boss.prefab 파일
+ - 리소스 경로 : Assets\ThirdParty\FreeDragons
+ - 작업자 : 한강
+ - 리소스(에니메이션)에 맞는 보스 패턴 기획 정리
+  => 행동에 맞는 적절한 이펙트 착기
+ - 1차 목표 날짜 : 4월 23일
+ 
+ 2.5 UI
+ - 로비 UI / 인 게임 UI
+ - UI 레이아웃 제작 / UI 이벤트 연동 
+ - 씬 파일 경로 : Assets/Scenes/Main.scene 파일
+ - 리소스 경로 : Assets\ThirdParty\GUI Kit Casual Game
+ - 작업자 : 승관이 /슬우 써포트~
+ - 1차 목표 날짜 : 4월 23일
+ - 1차 목표
+	-> 로비에 추가되는 UI 리스트 정리 
+	 (이동키, 점프, 이름생각안나는 버튼, 재화...)
+	-> 코드로 이벤트 연동
+	-> 캐릭터 조작키 연동
+	-> 포탈 -> 이름생각안나는 버튼 -> 스테이지 선택 UI -> 선택 -> 게임씬
+	-> 전투 씬에 캐릭터 조작키 연동
+	-> 한글 폰트 (ttf)
+

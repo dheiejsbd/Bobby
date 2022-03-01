@@ -1,0 +1,4 @@
+ID,name,조건,anime id,attack delay,range,fail delay
+1,medusa,체력이 50%/30% 이하일때 사용(2번사용),anime@1,8,left,0
+2,down,70% 확률로 사용 함,anime@2,5,5,4
+3,poison,30% 확률로 사용 함,anime@3,4,3,5

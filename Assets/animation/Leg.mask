@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Leg
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: BackA
+    m_Weight: 0
+  - m_Path: Dragon_body
+    m_Weight: 0
+  - m_Path: Face
+    m_Weight: 0
+  - m_Path: HornC
+    m_Weight: 0
+  - m_Path: Root
+    m_Weight: 0
+  - m_Path: Root/Center
+    m_Weight: 0
+  - m_Path: Root/Center/LegL1
+    m_Weight: 1
+  - m_Path: Root/Center/LegL1/LegL2
+    m_Weight: 1
+  - m_Path: Root/Center/LegL1/LegL2/LegL3
+    m_Weight: 1
+  - m_Path: Root/Center/LegR1
+    m_Weight: 1
+  - m_Path: Root/Center/LegR1/LegR2
+    m_Weight: 1
+  - m_Path: Root/Center/LegR1/LegR2/LegR3
+    m_Weight: 1
+  - m_Path: Root/Center/Spine1
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/ArmL1
+    m_Weight: 1
+  - m_Path: Root/Center/Spine1/ArmL1/ArmL2
+    m_Weight: 1
+  - m_Path: Root/Center/Spine1/ArmL1/ArmL2/ArmL3
+    m_Weight: 1
+  - m_Path: Root/Center/Spine1/ArmR1
+    m_Weight: 1
+  - m_Path: Root/Center/Spine1/ArmR1/ArmR2
+    m_Weight: 1
+  - m_Path: Root/Center/Spine1/ArmR1/ArmR2/ArmR3
+    m_Weight: 1
+  - m_Path: Root/Center/Spine1/Spine2
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/Spine2/Head
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/Spine2/Head/Head_End
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/Spine2/Head/Mouth_Top1
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/Spine2/Head/Mouth_Top1/Mouth_Top2
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/Spine2/Head/Mouth_Under1
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/Spine2/Head/Mouth_Under1/Mouth_Under2
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/WingL1
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/WingL1/WingL2
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/WingL1/WingL2/WingL3
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/WingL1/WingL2/WingL3/WingL4
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/WingR1
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/WingR1/WingR2
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/WingR1/WingR2/WingR3
+    m_Weight: 0
+  - m_Path: Root/Center/Spine1/WingR1/WingR2/WingR3/WingR4
+    m_Weight: 0
+  - m_Path: Root/Center/Tail1
+    m_Weight: 0
+  - m_Path: Root/Center/Tail1/Tail2
+    m_Weight: 0
+  - m_Path: Root/Center/Tail1/Tail2/Tail3
+    m_Weight: 0
+  - m_Path: Root/Center/Tail1/Tail2/Tail3/Tail4
+    m_Weight: 0
+  - m_Path: Root/Center/Tail1/Tail2/Tail3/Tail4/Tail5
+    m_Weight: 0
+  - m_Path: Teech
+    m_Weight: 0
+  - m_Path: Wing_A
+    m_Weight: 0

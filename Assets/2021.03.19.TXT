@@ -1,0 +1,22 @@
+﻿
+
+1. 생성자에 대해 알아오기
+2. 승관이는 DataBaseManaer
+ -> Table, RowData
+ -> 기획에서 전달 받은 CSV 파일을 읽어서 RowData 생성 후 Table 저장
+3. 상훈이는 PageManager
+ -> Lobby, Ingame Page
+ -> GUI.Button 
+ -> 페이지가 전환 되게 구현 (Exit -> Activate page Change -> Enter)
+ 4. 슬우는 오브젝트 POOl 시스템을 구현하기
+ -> 객체 지향 5대 원칙 중 하나인 단일 책임에 대해서 브리핑 할수 있게
+ 준비 하기 (캡슐화, 정보은닉)
+ -> Pop, Push
+ 5. 준현아.....고마웝다...미안하다...졸작이 잘나올지...미안하구나..
+ -> 에셋 들 취합. -> SVN 커밋 
+ -> 기획서 일 정에 맞게 잘 리딩.
+ 
+
+ -> 사운드,
+ -> 결과창
+ -> 

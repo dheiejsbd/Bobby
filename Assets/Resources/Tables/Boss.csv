@@ -1,0 +1,13 @@
+BossID,Type,BssName,Hp,If
+1,ad,Snake,5000,
+2,ad,frog,5001,
+3,ad,turtle,5002,
+4,ad,jellyfish,5003,
+5,ad,hydra,5004,
+6,ad,shark,5005,
+7,ad,owl,5006,
+8,ad,eagle,5007,
+9,ad,kumar,5008,
+10,ad,porginei,5009,
+11,ad,hunting dog,5010,
+12,ad,poachers,5011,
