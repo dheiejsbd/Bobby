@@ -148,6 +148,7 @@ namespace Bobby
                     break;
             }
             resultWindow.HideSequence.Play();
+            Object.FindObjectOfType<BossHUDWindow>().HideSequence.Play();
             MonsterController[] monsters = GameObject.FindObjectsOfType<MonsterController>();
             for (int i = 0; i < monsters.Length; i++)
             {

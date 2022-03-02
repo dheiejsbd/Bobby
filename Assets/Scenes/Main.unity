@@ -4837,7 +4837,7 @@ RectTransform:
   m_Children:
   - {fileID: 1952203515}
   m_Father: {fileID: 6937032364493196727}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -7632,7 +7632,7 @@ RectTransform:
   - {fileID: 92723372}
   - {fileID: 2132077404}
   m_Father: {fileID: 6937032364493196727}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -9036,7 +9036,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6937032364493196727}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1370481689
 GameObject:
@@ -13267,7 +13267,7 @@ RectTransform:
   - {fileID: 1880515904}
   - {fileID: 85975343}
   m_Father: {fileID: 6937032364493196727}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -16524,7 +16524,7 @@ RectTransform:
   - {fileID: 1350493187}
   - {fileID: 6672123898220985788}
   m_Father: {fileID: 6937032364493196727}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -16596,7 +16596,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: \(^ U ^)/
+  m_text: "\uBCF4\uBFB0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dab58661bbde5a144897c3a373c2a330, type: 2}
   m_sharedMaterial: {fileID: -4354784622107725861, guid: dab58661bbde5a144897c3a373c2a330,
@@ -17614,6 +17614,7 @@ MonoBehaviour:
   Select:
   - {fileID: 6672123897421446259}
   - {fileID: 6672123898989869069}
+  - {fileID: 6672123899174392615}
   Exit: {fileID: 6672123897536701303}
 --- !u!224 &6672123898220985788
 RectTransform:
@@ -18045,7 +18046,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCD94\uD6C4 \uCD94\uAC00 \uC608\uC815"
+  m_text: "\uD30C\uB780 \uC544\uAE30\uC6A9\n\uB0C9\uC815\uD55C \uC131\uACA9\n\uC544\uC774\uC2A4
+    \uC2A4\uD0AC\uC744 \uC0AC\uC6A9"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dab58661bbde5a144897c3a373c2a330, type: 2}
   m_sharedMaterial: {fileID: -4354784622107725861, guid: dab58661bbde5a144897c3a373c2a330,
@@ -18808,7 +18810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 506297f15cb626847a11d560ed006046, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 0
+  value: 2
 --- !u!224 &6672123899174392792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18881,11 +18883,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1365913163}
   - {fileID: 801186197}
   - {fileID: 3410379101818209550}
   - {fileID: 1880516543}
   - {fileID: 1147106019}
-  - {fileID: 1365913163}
   - {fileID: 244664985}
   m_Father: {fileID: 1378324112}
   m_RootOrder: 0

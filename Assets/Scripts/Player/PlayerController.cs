@@ -129,6 +129,7 @@ namespace Bobby
         {
             TryAddSkill(new Breath(AttackParticle));
             TryAddSkill(new Heal(gameObject, AttackParticle));
+            TryAddSkill(new Ice(gameObject, AttackParticle));
         }
 
         void TryAddSkill(ISkill skill)

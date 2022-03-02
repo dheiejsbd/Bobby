@@ -11640,6 +11640,7 @@ MonoBehaviour:
   PlayerPrefab:
   - {fileID: 6822959968923163166, guid: ef70bd17dc0f9ac498929287894d9c2b, type: 3}
   - {fileID: 6822959968923163166, guid: 2affe38d3e5793f488bb73b09968be55, type: 3}
+  - {fileID: 3622450211872189395, guid: 95e5c25e50f314a4f8d02204d48e7835, type: 3}
 --- !u!4 &930038796049861510
 Transform:
   m_ObjectHideFlags: 0

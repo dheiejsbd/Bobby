@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ac4661cab97ffa42bd8bf4a33f775e6, type: 3}
+  m_Name: Boppyo
+  m_EditorClassIdentifier: 
+  HP: 300
+  WalkSpeed: 4.5
+  DashSpeed: 20
+  DashTime: 0.2
+  Attack: 2
+  MaxStamina: 100
+  skillID: 0
+  RotateSpeed: 50
+  KnockBackSpeed: 3
+  Stamina:
+    Idle: -5
+    Walk: -1
+    Dash: 3
+    Attack: 5
+    Jump: 0
+  Sound:
+    Walk: PlayerWalk
+    Dash: PlayerDash
+    Attack: PlayerAttack
+    skill: PlayerHeal
+    hit: PlayerHit1

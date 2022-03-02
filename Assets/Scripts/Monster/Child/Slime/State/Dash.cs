@@ -23,6 +23,7 @@ namespace Bobby
 
         float DashTimer;
         public int Id => 10;
+        float DefaultSpeed = 0;
 
         public void Enter()
         {
@@ -32,6 +33,7 @@ namespace Bobby
             animationHandler.Play("dash");
             SoundManager.instance.PlayEffect("SlimeDash");
             DashTimer = 0;
+            if(DefaultSpeed == 0) DefaultSpeed = nav.speed;
             //SoundManager.instance.PlayEffect(Controller.data.DashSound);
         }
 
@@ -58,7 +60,7 @@ namespace Bobby
         {
             Debug.Log("Dash");
             DashTimer += Time.deltaTime;
-            owner.transform.Translate(Vector3.forward * Time.deltaTime * Controller.data.DashSpeed);
+            owner.transform.Translate(Vector3.forward * Time.deltaTime * Controller.data.DashSpeed * (nav.speed / DefaultSpeed));
         }
     }
 }
