@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace Boby
+namespace Bobby
 {
     [CreateAssetMenu(fileName = "Boss Data2", menuName = "Scriptable Object/Boss Data", order = int.MaxValue)]
     public class BossData : ScriptableObject

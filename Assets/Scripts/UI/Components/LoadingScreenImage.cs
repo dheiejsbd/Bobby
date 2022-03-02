@@ -2,7 +2,7 @@
 using UnityEditor;
 using DG.Tweening;
 
-namespace Boby
+namespace Bobby
 {
     [RequireComponent(typeof(CanvasGroup))]
     public class LoadingScreenImage : UIWidget

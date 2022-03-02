@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 
-namespace Boby
+namespace Bobby
 {
     public class InGame : IPage
     {

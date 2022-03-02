@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Boby
+namespace Bobby
 {
     [System.Serializable]
     public class Skill

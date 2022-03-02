@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     public delegate void Complete(GameObject obj);
 

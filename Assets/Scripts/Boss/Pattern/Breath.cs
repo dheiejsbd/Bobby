@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     class AttackPattern2 : IPattern
     {

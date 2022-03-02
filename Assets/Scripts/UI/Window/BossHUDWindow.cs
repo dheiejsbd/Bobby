@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-namespace Boby
+namespace Bobby
 {
     public class BossHUDWindow : UIWidget
     {

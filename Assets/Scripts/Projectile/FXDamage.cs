@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     public class FXDamage : MonoBehaviour
     {

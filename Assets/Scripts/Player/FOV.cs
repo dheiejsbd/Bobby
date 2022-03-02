@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     public class FOV : MonoBehaviour
     {

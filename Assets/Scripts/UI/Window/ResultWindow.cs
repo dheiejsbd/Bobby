@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-namespace Boby
+namespace Bobby
 {
     [RequireComponent(typeof(CanvasGroup))]
     public class ResultWindow : UIWidget

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-namespace Boby
+namespace Bobby
 {
 
     public class DataBaseManager 

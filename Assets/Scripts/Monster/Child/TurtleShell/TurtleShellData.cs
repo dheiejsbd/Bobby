@@ -2,7 +2,7 @@
 using UnityEditor;
 
 
-namespace Boby
+namespace Bobby
 {
     [System.Serializable]
     public class TurtleShellData : IMonsterData

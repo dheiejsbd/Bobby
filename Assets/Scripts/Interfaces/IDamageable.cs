@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     public interface IDamageable 
     {

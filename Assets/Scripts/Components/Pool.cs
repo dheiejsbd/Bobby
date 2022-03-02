@@ -2,7 +2,7 @@
 using UnityEditor;
 using System.Collections.Generic;
 
-namespace Boby
+namespace Bobby
 {
     public class Pool 
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Boby
+namespace Bobby
 {
     public class PageManager
     {

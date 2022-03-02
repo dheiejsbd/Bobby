@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections;
 
-namespace Boby
+namespace Bobby
 {
     public class BombObj : Projectile
     {

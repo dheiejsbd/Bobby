@@ -7,7 +7,7 @@ using TMPro;
 
 
 
-namespace Boby
+namespace Bobby
 {
     public class PlayerStatHUDWindow : UIWidget
     {

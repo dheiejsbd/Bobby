@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     public interface IStage
     {

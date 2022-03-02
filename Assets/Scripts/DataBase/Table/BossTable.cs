@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace Boby
+namespace Bobby
 {
     //CSV에 있는 데이터들의 정보를 참조하는 변수들의 집합
     public class BossTable : Table

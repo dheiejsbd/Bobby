@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Boby
+namespace Bobby
 {
     public class EnemyHpBar : MonoBehaviour
     {

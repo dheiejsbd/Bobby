@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
-namespace Boby
+namespace Bobby
 {
     public class SlimeIdle : IState
     {

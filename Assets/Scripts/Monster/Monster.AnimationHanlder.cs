@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-namespace Boby
+namespace Bobby
 {
     public partial class MonsterController : IAnimationHandler
     {

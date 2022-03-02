@@ -1,5 +1,5 @@
 ﻿
-namespace Boby
+namespace Bobby
 {
     public enum DamageType
     {

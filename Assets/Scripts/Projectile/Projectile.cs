@@ -2,7 +2,7 @@
 using UnityEditor;
 using System.Collections;
 
-namespace Boby
+namespace Bobby
 {
     public class Projectile : PoolObj, IDamageCauser
     {

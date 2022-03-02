@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 
-namespace Boby
+namespace Bobby
 {
     public class intButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {

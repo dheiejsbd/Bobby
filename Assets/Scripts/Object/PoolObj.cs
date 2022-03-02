@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     public abstract class PoolObj : MonoBehaviour
     {

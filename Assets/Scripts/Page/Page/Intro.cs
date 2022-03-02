@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
 using DG.Tweening;
-namespace Boby
+namespace Bobby
 {
     public class Intro : IPage
     {

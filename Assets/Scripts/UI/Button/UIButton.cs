@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Boby
+namespace Bobby
 {
     [RequireComponent(typeof(UnityEngine.UI.Button))]
     public class UIButton : UIWidget, IPointerDownHandler, IPointerUpHandler

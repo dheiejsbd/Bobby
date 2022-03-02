@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-namespace Boby
+namespace Bobby
 {
     /*
     public class PlayerInputWindow 

@@ -1,12 +1,12 @@
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace Bobby
 {
-    public class Heal : ISkill
+    class Ice:ISkill
     {
-        public int ID => 1;
+        public int ID => 2;
         public float Stamina => 10;
         public bool single => true;
         public float CoolTime => 5;
@@ -18,7 +18,7 @@ namespace Bobby
         GameObject owner;
         ParticleSystem Fx;
 
-        public Heal (GameObject owner, ParticleSystem Fx)
+        public Ice(GameObject owner, ParticleSystem Fx)
         {
             this.owner = owner;
             this.Fx = Fx;
@@ -40,5 +40,4 @@ namespace Bobby
 
         }
     }
-
 }

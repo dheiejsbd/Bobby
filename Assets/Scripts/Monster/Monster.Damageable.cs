@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-namespace Boby
+namespace Bobby
 {
     public partial class MonsterController : IDamageable
     {
@@ -20,12 +20,10 @@ namespace Boby
 
             if (0 > CurHP)
             {
-                //IsDie = true;
             }
             else
             {
                 DamageCauser = damageCauser.transform;
-                //IsHited = true;
             }
         }
 

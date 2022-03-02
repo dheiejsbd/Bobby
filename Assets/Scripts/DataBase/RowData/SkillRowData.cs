@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
 
     //SkillTable에 있는 정보를 가르키는 열거형

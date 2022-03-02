@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     public class CloseAttack : IState
     {

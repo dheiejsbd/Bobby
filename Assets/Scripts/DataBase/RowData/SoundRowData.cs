@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 using UnityEngine.Audio;
-namespace Boby
+namespace Bobby
 {
     public enum AudioType
     {

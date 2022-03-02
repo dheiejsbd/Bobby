@@ -2,7 +2,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace Boby
+namespace Bobby
 {
     public class BossPatternTable : Table
     {

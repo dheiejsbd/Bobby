@@ -3,7 +3,7 @@
 using UnityEngine;
 using DG.Tweening;
 
-namespace Boby
+namespace Bobby
 {
     public class DoScale : UIWidget
     {

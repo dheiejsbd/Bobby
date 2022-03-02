@@ -1,7 +1,7 @@
 ﻿
 
 
-namespace Boby
+namespace Bobby
 {
     public abstract class Table
     {

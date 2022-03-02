@@ -2,7 +2,7 @@
 using UnityEditor;
 
 
-namespace Boby
+namespace Bobby
 {
     public interface IMonsterData
     {

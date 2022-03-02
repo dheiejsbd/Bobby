@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     public class Client : MonoBehaviour
     {

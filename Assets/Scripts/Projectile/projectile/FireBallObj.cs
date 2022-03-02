@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-namespace Boby
+namespace Bobby
 {
     class FireBallObj : Projectile
     {

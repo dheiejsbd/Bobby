@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     [CreateAssetMenu(fileName = "PlayerData", menuName = "Scriptable Object/Player Data", order = int.MaxValue)]
     public class PlayerData : ScriptableObject

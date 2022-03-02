@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Boby
+namespace Bobby
 {
     [System.Serializable]
     public class BossGolemData : IMonsterData
