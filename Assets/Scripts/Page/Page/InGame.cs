@@ -148,7 +148,7 @@ namespace Bobby
                     break;
             }
             resultWindow.HideSequence.Play();
-            Object.FindObjectOfType<BossHUDWindow>().HideSequence.Play();
+            Object.FindObjectOfType<BossHUDWindow>()?.HideSequence.Play();
             MonsterController[] monsters = GameObject.FindObjectsOfType<MonsterController>();
             for (int i = 0; i < monsters.Length; i++)
             {
@@ -191,7 +191,7 @@ namespace Bobby
             FollowCam cam = GameObject.Find("Main Camera").GetComponent<FollowCam>();
             PlayerController.immortality = true;
             MonsterController[] monsters = GameObject.FindObjectsOfType<MonsterController>();
-            for (int i = 0; i < monsters.Length; i++)
+            for (int i = 0; i < 10; i++)
             {
                 ThunderParticle.transform.position = monsters[i].transform.position;
                 GameObject.Destroy(monsters[i].gameObject);
@@ -199,6 +199,16 @@ namespace Bobby
                 ThunderParticle.Play();
                 SoundManager.instance.PlayEffect("Thunder");
                 yield return new WaitForSeconds(Random.Range(0.37f, 0.45f));
+            }
+            var lastmonster = Object.FindObjectsOfType<MonsterController>();
+            foreach (var item in lastmonster)
+            {
+                Object.Destroy(item.gameObject);
+            }
+            var heal = GameObject.FindObjectsOfType<HealingHeart>();
+            foreach (var item in heal)
+            {
+                Object.Destroy(item.gameObject);
             }
             GameObject.Destroy(ThunderParticle);
             yield return new WaitForSeconds(2);

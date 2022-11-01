@@ -33,19 +33,23 @@ namespace Bobby
                 NavMeshAgent agent;
                 if(coll[i].TryGetComponent<NavMeshAgent>(out agent))
                 {
-                    agent.speed = agent.speed * Slow;
-                    GameObject obj = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/Ice"), coll[i].transform);
-                    Coroutine.instance.StartCoroutine(back(agent, obj));
+                    agent.enabled = false;
+                    GameObject obj = UnityEngine.Object.Instantiate(Resources.Load<GameObject>("Prefabs/Ice"), coll[i].transform.position, coll[i].transform.rotation);
+                    var monster = coll[i].GetComponent<MonsterController>();
+                    Coroutine.instance.StartCoroutine(back(monster, agent, obj));
                 }
             }
             Fx.Play();
         }
 
-        IEnumerator back(NavMeshAgent agent, GameObject obj)
+        IEnumerator back(MonsterController monster, NavMeshAgent agent, GameObject obj)
         {
+            float speed = agent.speed;
+            agent.speed = 0;
             yield return new WaitForSeconds(SlowTime);
-            agent.speed = agent.speed / Slow;
-            UnityEngine.GameObject.Destroy(obj);
+            monster.enabled = true;
+            agent.speed = speed;
+            UnityEngine.Object.Destroy(obj);
         }
 
         public bool CanAttack()

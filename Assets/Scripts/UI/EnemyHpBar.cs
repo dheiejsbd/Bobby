@@ -28,7 +28,7 @@ namespace Bobby
 
         void LateUpdate()
         {
-            if (TargetTr == null) Destroy(gameObject);
+            if (TargetTr == null || TargetTr.gameObject.activeSelf == false) Destroy(gameObject);
             if (monsterController.CurHP <= 0) Destroy(gameObject);
             image.fillAmount = monsterController.CurHP / monsterController.MaxHP;
 

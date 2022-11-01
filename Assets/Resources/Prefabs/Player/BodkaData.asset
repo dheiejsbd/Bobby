@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ac4661cab97ffa42bd8bf4a33f775e6, type: 3}
   m_Name: BodkaData
   m_EditorClassIdentifier: 
-  HP: 10000
+  HP: 300
   WalkSpeed: 4.5
   DashSpeed: 20
   DashTime: 0.2
   Attack: 2
-  MaxStamina: 10000
+  MaxStamina: 100
   skillID: 0
   RotateSpeed: 50
   KnockBackSpeed: 4.24

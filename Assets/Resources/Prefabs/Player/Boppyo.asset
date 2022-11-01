@@ -17,13 +17,13 @@ MonoBehaviour:
   DashSpeed: 20
   DashTime: 0.2
   Attack: 2
-  MaxStamina: 100
+  MaxStamina: 500
   skillID: 0
   RotateSpeed: 50
   KnockBackSpeed: 3
   Stamina:
-    Idle: -5
-    Walk: -1
+    Idle: -10
+    Walk: -5
     Dash: 3
     Attack: 5
     Jump: 0
