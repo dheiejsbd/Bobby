@@ -1,9 +1,8 @@
 ﻿using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
-
 namespace Bobby
-{
+{ 
     public class SoundManager
     {
         public SoundManager ()
@@ -20,7 +19,6 @@ namespace Bobby
         AudioSource AudioEffect;
         GameObject SoundObj;
 
-        #region singleton
         private void Initialize()
         {
             SoundObj = new GameObject();
@@ -32,7 +30,6 @@ namespace Bobby
             AudioEffect.playOnAwake = false;
             AudioEffect.loop = false;
         }
-        #endregion singleton
 
         #region Sound
 
